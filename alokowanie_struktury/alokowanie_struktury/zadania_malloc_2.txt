@@ -1,0 +1,92 @@
+
+- trójk¹t		x1,y1, x2,y2, x3,y3
+- ko³o 			R, x0, y0
+- kwadrat		x1,y1, x2,y2, x3,y3, x4,y4
+- odcinek		x1,y1, x2,y2
+
+enum TYP_FIGURY
+{
+	trojkat,
+	kolo,
+	kwadrat,
+	odcinek
+};
+
+struct punkt_t
+{
+	float x, y;
+};
+
+struct fgeom_t
+{
+	enum TYP_FIGURY typ;
+	
+	struct punkt_t *p1,p2,p3,p4;
+	float R;
+};
+
+#define TEST_ERR(X) { int a = X; int b = X; int c =a+b; printf("%d %d", c, X); }
+
+fgeom_t* generuj_kolo(int x, int y, int r, int* err)
+{
+	int q = 10;
+	
+	TEST_ERR(++q);
+	int a = ++q;
+	int b = ++q;
+	int c =a+b; printf("%d %d", c, ++q);
+	
+
+	if (r < 0)
+		if (err != NULL)
+			*err = 1;
+	if (1 != 0)
+		return NULL;
+
+		
+	if (x < 0 || x > 100)
+	{
+		TEST_ERR(2);
+	}
+	if (y < 0 || y > 100)
+	{
+		TEST_ERR(3);
+	}
+
+	fgeom_t *fig = (fgeom_t *)malloc(sizeof(fgeom_t));
+
+	if (fig == NULL)
+	{
+		TEST_ERR(100);
+	}
+			
+	fig->typ = TYP_FIGURY::kolo;
+	fig->p1->x = x;
+	fig->p1->y = y;
+	fig->R = r;
+	
+	return fig;
+}
+
+
+main()
+{
+
+	fgeom_t * fig1, *fig2, *fig3;
+	
+	fig1 = generuj_kolo(10,20,30, NULL);
+	fig2 = generuj_odcinek(10,10,40,40);
+}
+
+
+ZAD 1.
+Zaproponuj strukturê opisuj¹c¹ kilka figur geometrycznych. Napisz kod do alokacji pamiêci tak, aby funkcja alokuj¹ca pamiêc wype³niania strukturê.
+Napisz funkcjê, która potrafi wyœwietliæ zawartoœæ struktury w sposób spersonalizowany.
+
+ZAD 2.
+Utwórz tablicê figur geometrycznych z zadania 1 (10 sztuk) i zapisz j¹ na dysk do pliku binarnego. Nastêpnie wczytaj ten plik z dysku i wyœwietl jego zawartoœæ,
+równie¿ w sposób spersonalizowany.
+
+ZAD 3. Funkcje alokuj¹ce i wype³niaj¹ce strukturê figury geometrycznej nale¿y umieœcic w pliku funkcje_geom.cpp a wywolanie (funkcjê main) w pliku main.cpp.
+
+ZAD 3. Napisz ma

@@ -1,0 +1,14 @@
+.data
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+.prog
+			R1 <= 0
+			R2 <= 0
+			R3 <= 4
+	PETLA:	JE R2, R3, WYNIKI
+			R1 += D[R2]
+			R2 += 1
+			JMP PETLA
+	WYNIKI:	R1 /= R3
+			PRINT R1
+			PRINT R2
+			END

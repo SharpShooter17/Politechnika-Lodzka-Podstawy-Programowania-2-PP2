@@ -1,0 +1,72 @@
+#new_record
+#name
+Bartek
+#surname
+Ujazdowski
+#email
+b.ujazdowski@gmail.com
+#birthday
+1 1 1996
+#telephone
+732945210
+#end_record
+#new_record
+#name
+Kamil
+#surname
+Ujazdowski
+#email
+b.ujazdowski@gmail.com
+#birthday
+26 10 1996
+#telephone
+732945210
+#end_record
+#new_record
+#name
+Monika
+#surname
+Ujazdowski
+#email
+b.ujazdowski@gmail.com
+#birthday
+26 10 1996
+#telephone
+732945210
+#end_record
+#new_record
+#name
+Czeslaw
+#surname
+Ujazdowski
+#email
+b.ujazdowski@gmail.com
+#birthday
+26 10 1996
+#telephone
+732945210
+#end_record
+#new_record
+#name
+Norbert
+#surname
+Ujazdowski
+#email
+b.ujazdowski@gmail.com
+#birthday
+26 10 1996
+#telephone
+732945210
+#end_record
+#new_record
+#name
+Kopciuszek
+#surname
+Marian
+#email
+moj@wp.pl
+#birthday
+-842150451 -842150451 -842150451
+#telephone
+-842150451
+#end_record

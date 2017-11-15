@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char * read()
+{
+	char * res;
+	char c = getchar();
+	unsigned short len = 1;
+
+	res = (char*)malloc(sizeof(char));
+	if (res == NULL) return NULL;
+	res[len - 1] = c;
+
+	do
+	{
+		c = getchar();
+		char *tmp = (char*)realloc(res, ++len * sizeof(char));
+		if (tmp == NULL) { putchar('\b'); --len; }
+		res = tmp;
+		res[len - 1] = c;
+	} while (c != '\n');
+
+	res[len - 1] = '\0';
+	return res;
+}
+
+bool validate(const char * text)
+{
+	for (int i = 0; i < strlen(text); i++)
+		if (text[i] >= '9' || text[i] <= '0') return false;
+	
+	return true;
+}
+
+int main() 
+{
+	char * text = nullptr;
+	int suma = 0;
+	do
+	{
+		free(text);
+		text = read();
+		if (!validate(text)) continue;
+		suma += atoi(text);
+		printf("suma: %d\n", suma);
+	} while (strcmp("koniec", text));
+
+
+	printf("Suma koncowa: %d\n", suma);
+
+	system("PAUSE");
+	return 0;
+}

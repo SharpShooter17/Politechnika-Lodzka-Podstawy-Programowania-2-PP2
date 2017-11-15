@@ -1,0 +1,22 @@
+ZAD 1.
+Zaprojektuj uniê, która pozwala rozbiæ liczbe typu int tak, aby mo¿liwe by³o wyœwietlenie wszystkich bajtów sk³adowych.
+Dla liczby int o wartoœci 0x41424344 wyœwietl wartoœci bajtów oraz wyjaœnij, jaki maj¹ one sens i jak powstaje z nich wartoœæ 1094861636. 
+
+ZAD 2.
+Rozszerz zadanie 1 tak, aby wyœwietlaæ starsze i m³odsze s³owo z liczby typu int. Jaki typ bêdzie poprawnie reprezentowa³ s³owo? Czym jest s³owo?
+
+ZAD 3.
+Napisz uniê bitow¹, która pozwoli wyœwietliæ wszystkie osiem bitów z bajta. Program ma pobieraæ wartoœæ tego bajta od u¿ytkownika.
+
+ZAD 4.
+Napisz program, który ka¿d¹ podan¹ z klawiatury liczbê typu unsigned int wyœwietla w nastêpuj¹cych formach:
+- unsigned int
+- 2x s³owo
+- 4x bajt
+- 32x bit
+- 4x 8x bit
+
+ZAD 5.
+Napisz program, który sprawdzi, czy wartoœæ podana w typie unsigned int jest parzysta bitowo. Definicjê bitu parzystoœci mo¿na znaleŸæ tutaj: https://pl.wikipedia.org/wiki/Kontrola_parzysto%C5%9Bci
+
+

@@ -1,0 +1,43 @@
+### Operacje wejœcia wyjœcia na plikach tekstowych i banarnych
+
+Zad 1
+Napisz program, który zapisuje do pliku tekstowego liczby od 0 do 100. Ka¿da liczba ma znajdowaæ siê w nowym wierszu.
+
+ZAD 2
+Napisz program, który zapisuje do pliku tekstowego liczby od 0 do 100,
+przy czym w jednym wierszu pliku mo¿e znajdowaæ siê maks. 10 liczb.
+
+ZAD 3
+Napisz program, który losuje liczby z zakresu 0-1000 i zapisuje je do pliku tekstowego. W jednym wierszu pliku mo¿e znajdowaæ siê maks. 10 liczb. Liczb ma byæ 145.
+
+ZAD 4
+Napisz program, który wczytuje i wyœwietla na ekranie liczby z pliku, utworzonego w zadaniu 1.
+
+ZAD 5
+Napisz program, który wczytuje liczby z pliku zadania_pliki_DATA3.txt.
+Na ekranie wyœwietl liczbê liczb wczytanych oraz ich sumê i œredni¹.
+Uwaga! Pierwsza wartoœæ w pliku jest liczb¹ ca³kowit¹ i okreœlia liczbê wartoœci - danych, nastêpuj¹cych po niej.
+
+ZAD 5a
+Napisz program, który wczytuje liczby z pliku zadania_pliki_DATA1.txt.
+Na ekranie wyœwietl liczbê liczb wczytanych oraz ich sumê oraz œredni¹.
+Uwaga1! Pierwsza wartoœæ w pliku jest liczb¹ ca³kowit¹ i okreœlia liczbê wartoœci - danych, nastêpuj¹cych po niej.
+Uwaga2! Wartoœci w pliku s¹ bardzo du¿e. Nale¿y wykorzystaæ odpowiedni typ danych. Podaj jaki typ i wybór uzasadnij.
+
+ZAD 6
+Napisz program, który generuje tablicê 100 liczb losowych typu float od -100 do 100 a nastêpnie zapisuje j¹ do pliku binarnego.
+
+ZAD 7
+Napisz program, który wczytuje dane z pliku utworzonego w zadaniu 6.
+
+ZAD 8
+Napisz program, który wyœwietla zawartoœæ dowolnego pliku. Plik nale¿y otworzyæ jako binarny a na ekranie wyœwietlaæ kody ASCII znaków.
+
+------------
+
+ZAD 9a
+Napisz program, który pobiera z klawiatury teksty o maksymalnej d³ugoœci 100 znaków. Teksty te zapisywane s¹ do pliku. Program przerywa dzia³anie, jeœli u¿ytkownik wpisa³ pusty ci¹g znaków.
+
+ZAD 9b
+Napisz program, który wczytuje i wyœwietla teksty z zadania 9a. Po wyœwietleni tekstów program ma podaæ ich liczbê.
+

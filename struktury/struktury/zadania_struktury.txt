@@ -1,0 +1,53 @@
+### Struktury
+
+ZAD 1.
+Napisz program pozwalający na wczytanie danych studenta: imienia, nazwiska oraz indeksu do struktury student_t. Zaproponuj kształt struktury. Wprowadzone dane wyświetl.
+Kod, który pobiera od użytkwonika dane i zapisuje je do struktury,
+oraz kod który wyświetla strukturę na ekranie ma być zamknięty w postaci funkcji o następujących prototypach:
+
+void wpisz_dane(student_t *rekord);
+void wyswietl_dane(const student_t *rekord);
+
+ZAD 2.
+Dodaj funkcje:
+void zapisz_dane_t(const char* plik, const student_t* rekord);
+void wczytaj_dane_t(const char* plik, student_t* rekord);
+void zapisz_dane_b(const char* plik, const student_t* rekord);
+void wczytaj_dane_b(const char* plik, student_t* rekord);
+które zapisują/odczytują strukturę z pliku. Przyrostki _t oraz _b oznaczają, że pliki maja być zapisywane/odczytywane w trybie tekstowym oraz binarnym.
+
+------
+
+ZAD 3.
+Napisz program realizujący bazę danych kontaktów. Podstawą ma być struktura kontakt_t, pozwalająca na przechowanie:
+imienia, nazwiska, adresu, telefonu, daty urodzin oraz adresu email.
+Program ma możliwość przechowywania maks. 100 kontaktów.
+Funkcje:
+- Baza kontaktów powinna być wczytywana przy starcie programu i zapisywana przy kończeniu.
+- Wybieranie aktualnego rekordu.
+- Wyświetlanie wybranego rekordu.
+- Edycja wybranego rekordu.
+- Usuwanie wybranego rekordu.
+
+Obsługa programu powinna być zarealizowana za pomocą interfejsu tekstowego, np.: 									╔═╗║╝╚─╟╢
+   ╔════════════════════════╗
+   ║  Twoje menu:           ║
+   ╟────────────────────────╢
+   ║  Aktualny rekord #23   ║	
+   ║ Imie:                  ║
+   ║                 Tomasz ║	
+   ║ Nazwisko:              ║
+   ║               Jaworski ║	
+   ╟────────────────────────╢
+   ║ 1. Następny rekord     ║	
+   ║ 2. Poprzedni rekord    ║	
+   ║ 3. Wyświetl cały rekord║	
+   ║ 4. Usuń rekord         ║	
+   ║ 5. Dodaj rekord        ║	
+   ║ 0. Wyjdź z programu    ║	
+   ╚════════════════════════╝
+      Twój wybór: 
+
+
+
+

@@ -1,0 +1,4 @@
+﻿  main.cpp
+g:\zajęcia\programowanie\stos\stos\main.cpp(120): warning C4114: same type qualifier used more than once
+g:\zajęcia\programowanie\stos\stos\main.cpp(122): warning C4018: '<': signed/unsigned mismatch
+  stos.vcxproj -> G:\Zajęcia\Programowanie\stos\Debug\stos.exe
