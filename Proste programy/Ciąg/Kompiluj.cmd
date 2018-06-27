@@ -1,0 +1,1 @@
+g++ -static -std=c++11 main.cpp -o ciag.exe
